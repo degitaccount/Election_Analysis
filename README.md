@@ -27,9 +27,9 @@ The code used to produce the results that were presented can be modified for oth
 
 For example, if we receive an election file in the same format for a group of cities instead of counties, I could make the following modifications:
 
-				f"County Votes: \n" would be changed to:
+				f"**County Votes**: \n" would be changed to:
 
-				f"City Votes: \n"
+				f"**City Votes**: \n"
 	
 			- and -
 
