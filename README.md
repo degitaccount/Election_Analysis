@@ -27,15 +27,15 @@ The code used to produce the results that were presented can be modified for oth
 
 For example, if we receive an election file in the same format for a group of cities instead of counties, I could make the following modifications:
 
-> f"***County*** Votes: \n" would be changed to:
+>>>> f"***County*** Votes: \n" would be changed to:
 
-> f"***City*** Votes: \n"
+>>>> f"***City*** Votes: \n"
 	
-> ...and...
+>>>> ...and...
 
-> f"Largest ***County*** Turnout: {winning_county}\n" would be changed to:
+>>>> f"Largest ***County*** Turnout: {winning_county}\n" would be changed to:
 	
-> f"Largest ***City*** Turnout: {winning_county}\n
+>>>> f"Largest ***City*** Turnout: {winning_county}\n
 
 *Note: {winningcounty} does not to be updated for the code to work for city level data.  However, the code can be misleading so updating all the variables, lists, dictionaries and calculations to replace “county” references with “city” would be better coding hygiene.*
 
