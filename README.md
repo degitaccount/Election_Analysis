@@ -37,9 +37,9 @@ For example, if we receive an election file in the same format for a group of ci
 	
 >>>> f"Largest ***City*** Turnout: {winning_county}\n
 
-*Note: {winningcounty} does not to be updated for the code to work for city level data.  However, the code can be misleading so updating all the variables, lists, dictionaries and calculations to replace “county” references with “city” would be better coding hygiene.*
+*Note: {winningcounty} does not have to be updated for the code to work for city level data.  However, the code can be misleading so updating all the variables, lists, dictionaries and calculations to replace “county” references with “city” would be better coding hygiene.*
 
-The code can also be repurposed for statewide elections with the same changes described above, except that “county” would be replaced by “state”.  Of course, this continues to assume the results are received in the same format as the county data.
+The code can also be repurposed for statewide elections with the same changes described above, except that “county” would be replaced by “state”.  Of course, this continues to assume the results are received in the same format as the county data (i.e. a ".csv" file with the data in the same order).
 
 
 
